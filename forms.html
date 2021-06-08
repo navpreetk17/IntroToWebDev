@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORMS</title>
+    </head>
+
+    <body>
+        <H2>OUR HTML FORM</H2>
+
+        <form>
+            <h1>First Input TYpe: Text</h1>
+            <fieldset>
+			    <legend> Full Name </legend>
+			    <label for="firstName"> First Name </label><br>
+			    <input id="firstName" type="text" value="john" disabled>
+			    <br>
+			    <br>
+			    <label for="lastName"> Last Name </label><br>
+			    <input id="lastName" type="text" value="smith">
+            </fieldset>
+            <br>
+            <br>
+            <h1>Input type : Radio</h1>
+            <input type="radio" id="male" name="gender">
+            <label for="male"> Male </label>
+            <br>
+            <input type="radio" id="female" name="gender">
+            <label for="female"> Female </label>
+            <br>
+            <input type="radio" id="other" name="gender">
+            <label for="other"> Other </label>
+            <br>
+            <h1> Input type: Checkbox</h1>
+            <br>
+            <input type="checkbox" id="Science">
+            <label for="Science">I have done Science </label>
+            
+            <br>
+            <br>
+            <input type="checkbox" id="Comm">
+            <label for="Comm">I have done Commerce </label>
+            
+            <br>
+            <br>
+            <input type="checkbox" id="Arts">
+            <label for="Arts">I have done Arts</label>
+            <br>
+            <br>
+            <input type="button" value="Click Me" onclick="alert('Submitted Successfully')" > 
+            <br>
+            <br>
+            <h1> Input Type: Color</h1>
+            <label for="color"> Choose your favourite color </label>
+            <input type="color" id="color" value="#ffff00">
+            <br>
+            <br>
+            <h1> Input Type: Date</h1>
+            <label for="date"> Birthday </label>
+            <input type="date" id ="date" name="birthday"> 
+            <br>
+            <br>
+            
+            
+            <h1> Input Type: DateTime</h1>
+            <label for="datetime"> Birthday </label>
+            <input type="datetime-local" id ="datetime" name="birthday"> 
+            <br>
+            <br>
+            
+            <h1> Input Type: Email</h1>
+            <label for="email"> Enter your Email ID </label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <input type="submit" value="Submit Email">
+            
+            <h1> Input Type: File </h1>
+            <label for ="file"> Upload Your Document </label>
+            <input type="file" id="file" name="file" multiple>
+            <input type="button" value="Upload" onclick="alert('File Uploaded Successfully')">
+            
+            <br>
+            <br>
+             <h1> Input Type: Number </h1>
+            <label id="num"> Enter your age: 18-50 </label>
+            <input type="number" id="num" name="age" min="18" max="50">
+            <input type="submit" value="Age Entered">
+            
+            <br>
+            <br>
+             <h1> Input Type: Range </h1>
+            <label for="range"> Choose from range </label>
+            <input type="range" id="range" name="range" min="0" max="10">
+            <br>
+            <br>
+            
+             <h1> Input Type: Tel </h1>
+             <label for="phone"> Enter Phone Number </label>
+             <input type="tel" id="phone" name="phone" placeholder="123-45-678" required>
+             <br>
+             <small>Format: 123-45-678</small>
+             <br>
+             <input type="submit" value="Phone">
+            <br>
+            <br>
+            
+            <h1>Input type: Select/Drop Down Menu </h1>
+            <label for="cars"> Choose your Car</label>
+            <select id="cars" name=""cars" size="2" multiple>
+            	<option value="corolla">Corolla</option>
+            	<option value="Audi">Audi</option>
+            	<option value="Tesla">Tesla</option>
+            	<option value="Ferrari">Ferrari</option>
+            </select>
+            <input type="submit" >
+            
+            <br>
+            <br>
+            <h1>Input type: TextArea</h1>
+            <textarea name="message" rows="13" columns="40">
+            Write your reviews here
+            </textarea>
+            
+        </form>
+    </body>
+</html>    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+<!--types of input
+text
+submit
+radio
+checkbox
+button
+color
+-->
